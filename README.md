@@ -28,4 +28,6 @@ streamlit run app.py
 
 ## Architecture
 The Streamlit UI sends messages to an n8n webhook → AI Agent (Groq) → routes to the correct tool → responds back.
+![Workflow Overview](PA_workflow_overview.jpeg) 
+
 
